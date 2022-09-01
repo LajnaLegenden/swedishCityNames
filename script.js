@@ -30,7 +30,7 @@ async function main() {
             })
         }
     }
-    fs.writeFileSync("lan.json", JSON.stringify(ortNamn, null, 2), { flag: "w" })
+    fs.writeFileSync("cities.json", JSON.stringify(ortNamn, null, 2), { flag: "w" })
 
 
 }
